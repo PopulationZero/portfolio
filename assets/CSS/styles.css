@@ -1,0 +1,22 @@
+:root {
+    --primary-color: rgba(7, 7, 71, 0.815);
+    --secondary-color: #0695e2;
+    --tertiary-color: black;
+    --quanternary--color: white;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--quanternary--color);
+    font-family: Times New Roman, Times, serif;
+}
+
+header resources {
+    padding: 20px 50px;
+    background-color: var(--primary-color);
+}
