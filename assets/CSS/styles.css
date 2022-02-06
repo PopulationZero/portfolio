@@ -49,6 +49,54 @@ header nav ul li a {
     font-size: 22px;
 }
 
+.about-me {
+    text-align: center;
+}
+
+.about-me h2 {
+    font-size: 55px;
+    color: var(--primary-color);
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: var(--secondary-color);
+    display: inline-block;
+}
+
+.about-me p {
+    line-height: 1.7;
+    color: var(--primary-color);
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
     padding: 20px 30px;
     background-color: var(--secondary-color);
