@@ -8,6 +8,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -46,4 +47,38 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+}
+
+footer {
+    padding: 20px 30px;
+    background-color: var(--secondary-color);
+}
+
+footer h2 {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0;
+    display: inline;
+    /* color: var(--primary-color); */
+}
+
+footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+footer nav {
+    float: right;
+    margin: 7px 0px;
+}
+
+footer nav ul li {
+    display: inline;
+}
+
+footer nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+    float: right;
 }
