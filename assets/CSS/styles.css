@@ -57,62 +57,6 @@ header nav ul li a {
     font-size: 22px;
 }
 
-.about-me {
-    text-align: center;
-}
-
-.about-me h2 {
-    font-size: 55px;
-    border-radius: 5%;
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-    margin: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-}
-
-
-
-.about-me p {
-    line-height: 1.7;
-    color: var(--primary-color);
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-}
-
-
-
-.about-me-message p {
-    font-weight: 700;
-    font-size: medium;
-}
-.about-me-message img {
-    display: flex;
-    padding: 15px 0;
-    border-radius: 7%;
-}
-.about-me-message {
-    display: flex;
-    padding: 30px 30px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 footer {
@@ -123,8 +67,9 @@ footer {
 footer h2 {
     font-weight: bold;
     font-size: 25px;
-    margin: 0;
-    display: inline;
+    margin: 0 0 0 15px;
+    text-align: center;
+    padding-bottom: 25px;
     /* color: var(--primary-color); */
 }
 
@@ -143,8 +88,93 @@ footer nav ul li {
 }
 
 footer nav ul li a {
-    margin: 0 30px;
+    margin: -20px 30px 25px 0 ;
+    margin-bottom: 15px;
     font-weight: lighter;
     font-size: 22px;
     float: right;
+}
+
+.about-me h2 {
+    border: 1px var(--primary-color) solid;
+    background-color: var(--secondary-color);
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.profile-image {
+    display: flexbox;
+    padding: 15px 0;
+    border-radius: 7%;
+    margin: 0px 15px 0px 15px;
+    max-height: 750px;
+}
+
+.profile-image-2 {
+    display: flexbox;
+    padding: 30px 0 0 0;
+    border-radius: 7%;
+    margin: 15px 15px 0 15px;
+    max-height: 750px;
+}
+
+.profile-image-3 {
+    display: flexbox;
+    padding: 15px 0;
+    border-radius: 7%;
+    margin: 0px 15px 0px 15px;
+    max-height: 750px;
+}
+
+.about-me-message p {
+    border-radius: 15px;
+    padding: 10px 10px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    font-size: 25px;
+    margin: auto 15px;
+}
+
+.résumé {
+    text-decoration: none;
+}
+
+.my-work h2 {
+    border: 1px var(--primary-color) solid;
+    background-color: var(--secondary-color);
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.layer {
+    background-color: grey;
+    opacity: 50%;
+    z-index: 999;
+}
+
+.run-buddy img {
+    display: block;
+    margin: 25px auto;
+    width: 60%;
+    z-index: 1;
+}
+
+.layer .run-buddy:hover {
+    opacity: 0%;
+}
+
+.coming-soon img {
+    display: block;
+    display: flexbox;
+    flex-wrap: wrap;
+    margin: 25px auto;
+    max-width: 500px;
+}
+
+.layer .coming-soon:hover {
+    opacity: 0%;
 }
